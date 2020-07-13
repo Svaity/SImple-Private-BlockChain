@@ -1,3 +1,4 @@
+//Block Class
 class Block {
   constructor(data) {
     (this.hash = ""),
@@ -5,5 +6,15 @@ class Block {
       (this.body = data),
       (this.time = 0),
       (this.previousblockhash = "");
+  }
+}
+
+//BlockChain
+class BlockChain {
+  constructor() {
+    this.chain = [];
+  }
+  addBlock(newBlock) {
+    this.chain.push(newBlock);
   }
 }
