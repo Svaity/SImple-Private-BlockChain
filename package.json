@@ -9,7 +9,7 @@
   "author": "Shrey",
   "license": "MIT",
   "dependencies": {
-    "crypto-js": "^4.0.0",
+    "crypto-js": "^4.2.0",
     "level": "^4.0.0"
   }
 }
